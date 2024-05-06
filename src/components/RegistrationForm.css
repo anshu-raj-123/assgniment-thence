@@ -1,0 +1,86 @@
+.registration-form {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.registration-form h2 {
+  font-size: 34px;
+  color: rgb(113, 231, 113);
+}
+
+.registration-form > p:first-child {
+  font-size: 46px;
+  color: #242121;
+  margin-top: -25px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-container input[type="text"],
+.input-container input[type="email"] {
+  width: 300px;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 35px;
+  font-size: 16px;
+}
+
+.registration-form button {
+  width: 320px;
+  height: 50px;
+  margin-top: 20px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 38px;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #3e6b9b;
+}
+
+.registration-form button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: white;
+    /* padding: 1rem; */
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 75px;
+    margin: 15px 20px;
+  }
+
+
+  .left5 img {
+    width:150px;
+    height: 60px;
+    margin-left: 30px;
+  }
+  .right5{
+    font-size: 40px;
+    text-decoration: none;
+    margin-right: 30px;
+  }

@@ -1,0 +1,27 @@
+.submission-page {
+    text-align: center;
+    margin-top: 100px;
+    padding: 40px;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  
+  .success-text {
+    font-size: 34px;
+    color: #48bf61;
+  }
+  
+  .congratulations {
+    font-size: 62px;
+    margin-top: 20px;
+    color: #3f3e3e;
+    font-family: sans-serif;
+  }
+  
+  .success-message {
+    font-size: 28px;
+    color: #555050;
+    margin-top: 20px;
+  }
+  
